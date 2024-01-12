@@ -32,7 +32,7 @@
 
 Ci dessous l'UML de la situation donné (pour voir le code qui va avec il faut se reporter sur le fichier Adaptateur.cs) </p>
 
-```
+```C#
 
  public interface Forme {
     double calculerAire();
@@ -96,7 +96,7 @@ Pour les développeurs qui ne sont pas familiers avec le pattern Bridge, son uti
 ### Implémentation en C#
 
 Dans ce contexte, on veux faire des carrés et des cercles qu'on  souhaite afficher avec différentes couleurs. Plutôt que de lier étroitement les formes aux couleurs, elles sont conçus indépendemment afin de pouvoir rajouter facilement de nouvelles classes (formes où couleurs). Ainsi il sera facile d'ajouter au besoin de nouvelles fonctionnalités avec moins d'implémentation et de classes.
-```
+```C#
 public interface IColoration
 {
     void Colorier();
@@ -156,20 +156,6 @@ public class Carre : Forme
     }
 }
 
-class Program
-{
-    static void Main()
-    {
-        IColoration colorationRouge = new ColorationRouge();
-        IColoration colorationBleu = new ColorationBleu();
-
-        Forme cercle = new Cercle(colorationRouge);
-        Forme carre = new Carre(colorationBleu);
-
-        cercle.Afficher(); 
-        carre.Afficher();
-    }
-}
 
 ```
 
@@ -204,7 +190,7 @@ Le design pattern Composite permet d'ajouter de nouveaux types d'objets sans cha
   
 Considérons un scénario simple où on doit modéliser une entreprise avec des employés. Chaque employé peut être soit un individu unique, soit un groupe d'employés. On utilisera le design pattern Composite pour représenter cette structure hiérarchique
 
-```
+```C#
 
 public interface IEmploye
 {
@@ -294,7 +280,7 @@ Lorsque de nombreuses fonctionnalités sont ajoutées au moyen de décorateurs, 
 
 On développe un système de gestion de café, avec différentes options de boissons. On a une classe de base, *CafeSimple*, qui représente une boisson de base. Ensuite, vous avez des décorateurs qui ajoutent des extras à la boisson, tels que le lait, le sucre, ou encore la vanille.
 
-```
+```C#
 
 public abstract class Cafe
 {
