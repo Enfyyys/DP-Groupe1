@@ -13,7 +13,9 @@ Fabrique est un patron de conception de création qui définit une interface pou
 
 ### Présentation UML
 
-![image](https://github.com/Enfyyys/DP-Groupe1/assets/90694706/e9857c25-86a7-4c0c-8715-923a31323382)
+Dans l'UML suivant, la classe FabriqueVehicule appelle la classe Vehicule qui crée une voiture ou une moto en fonction du typeVehicule passé en paramètre.
+
+![image](https://github.com/Enfyyys/DP-Groupe1/assets/90694706/42a4fb2d-25e2-43a4-b1e0-fd8384e5887b)
 
 ### Implémentation en C#
 
@@ -31,3 +33,8 @@ public class FabriqueVehicule {
   }
 }
 ```
+
+
+## Fabrique absraite / Abstarct Factory
+
+### Présentation
