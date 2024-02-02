@@ -91,7 +91,7 @@ Pour les développeurs qui ne sont pas familiers avec le pattern Bridge, son uti
 
 ### Présentation UML
 
-<img src="./UML_Bridge.jpg"/>
+![image](https://github.com/Enfyyys/DP-Groupe1/assets/144044265/9220077a-3c77-4cff-ad26-7f5522b712a9)
 
 ### Implémentation en C#
 
@@ -183,7 +183,7 @@ Le design pattern Composite permet d'ajouter de nouveaux types d'objets sans cha
 
   ### Présention UML
 
-<img src = "./UML_Composite.jpg" />
+![image](https://github.com/Enfyyys/DP-Groupe1/assets/144044265/6440df2d-01cb-4b36-bc5a-500a54b9e18a)
 
   ### Implémentation en C#
 
@@ -274,7 +274,7 @@ Lorsque de nombreuses fonctionnalités sont ajoutées au moyen de décorateurs, 
 
 ### Présentation UML
 
-<img src='./UML_Decorateur.jpg'/>
+![image](https://github.com/Enfyyys/DP-Groupe1/assets/144044265/dc030808-88a1-4671-923d-4e8b70b944a9)
 
 ### Implémentation en C#
 
