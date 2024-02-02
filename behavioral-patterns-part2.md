@@ -17,7 +17,7 @@ Un objet a donc un état defini dans un objet.
 
 ## UML
 
-![UML](Etat_UML.png)
+![Etat_UML](https://github.com/Enfyyys/DP-Groupe1/assets/103527909/5f7740eb-c8e3-47c9-aa01-397ada169127)
 
 ## Exemple C#
 
@@ -250,7 +250,7 @@ Le design patterns Stratégie permet de définir une famille d’algorithmes, de
 
 ## UML
 
-![UML](UML_Strategy.png)
+![UML_Strategy](https://github.com/Enfyyys/DP-Groupe1/assets/103527909/5bd83704-b492-4b61-964e-641af4b4b23e)
 
 ## Exemple C#
 
@@ -352,7 +352,7 @@ Le design patterns Patron de méthode permet de mettre le squelette d’un algor
 
 ## UML
 
-![UML](UML_Patron_de_Methode.png)
+![UML_Patron_de_Methode](https://github.com/Enfyyys/DP-Groupe1/assets/103527909/f7b92e6b-a7dc-4497-a181-4964b3863bb8)
 
 ## Exemple C#
 
