@@ -1,15 +1,16 @@
-# Patrons de création :
+# Patrons comportementaux :
 
 ## Mediateur
 
 ### Présentation
-
+Le mediateur permet de supprimer les communications directes entre classes et de mettre en place un intermédiaire qui se chargera d'effectuer ces communications.
 
 ### Avantages
-
+Permet de découpler le code et de diminuer les responsabilités de chaque classe.
+Respecte mieux certains principes SOLID (notamment le SRP et le open/closed principle) : responsabilité unique des classes, et les classes sont fermées à la modification mais ouvertes à l'extension.
 
 ### Inconvénients
-
+Etant donné que l'on injecte un "object" dans la méthode Notify(), on peut rapidement se retrouver avec un "God Object", qui est un objet qui peut "tout faire". Il faut donc utiliser ce pattern avec parcimonie. 
 
 ### Présentation UML
 ![Design PAttern sauvegarde-Page-4 drawio](https://github.com/Enfyyys/DP-Groupe1/assets/105907677/88d1e208-7f00-433d-868c-111781ddf0d0)
