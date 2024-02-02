@@ -159,7 +159,7 @@ public class Carre : Forme
 
 ```
 
-### Composite
+## Composite
 
 ### Présentation 
 
@@ -173,7 +173,7 @@ Le design pattern Composite permet d'ajouter de nouveaux types d'objets sans cha
 
  Les composants peuvent être réutilisés à différents niveaux de la hiérarchie, ce qui favorise la réutilisation du code.
 
- ### Inconvénient
+### Inconvénient
 
  Dans certains cas, l'utilisation du design pattern Composite peut entraîner une perte de performance en raison de la manipulation d'une structure arborescente plutôt que d'une structure plate.
 
@@ -181,7 +181,7 @@ Le design pattern Composite permet d'ajouter de nouveaux types d'objets sans cha
 
   Une structure hiérarchique complexe peut rendre la compréhension du code plus difficile pour les développeurs qui n'ont pas été impliqués dans la conception initiale.
 
-  ### Présention UML
+### Présention UML
 
 ![image](https://github.com/Enfyyys/DP-Groupe1/assets/144044265/6440df2d-01cb-4b36-bc5a-500a54b9e18a)
 
@@ -250,9 +250,7 @@ public class GroupeEmployes : IEmploye
 
 ```
 
-### Décorateur
-
-
+## Décorateur
 
 ### Présentation 
 Décorateur est un patron de conception structurel qui permet d’affecter dynamiquement de nouveaux comportements à des objets en les plaçant dans des emballeurs qui implémentent ces comportements.
@@ -263,14 +261,11 @@ Le décorateur permet d'ajouter de nouvelles fonctionnalités à un objet exista
 
 Le décorateur favorise la composition d'objets plutôt que l'héritage de classes. Cela évite les problèmes liés à une hiérarchie de classes trop profonde et facilite la réutilisation du code.
 
-
-
 ### Inconvénient
 
 L'utilisation du décorateur peut entraîner une augmentation de la complexité du code, car de multiples couches de décorateurs peuvent être empilées. Cela peut rendre la compréhension du code plus difficile.
 
 Lorsque de nombreuses fonctionnalités sont ajoutées au moyen de décorateurs, cela peut conduire à la création d'un grand nombre de petites classes, ce qui peut être difficile à gérer.
-
 
 ### Présentation UML
 
@@ -334,22 +329,29 @@ public class Sucre : DecorateurCafe
 
 ```
 
-### Facade 
+## Facade 
 
 ### Présentation
 
 Le design pattern "Décoration" (Decorator) est un motif de conception structurelle qui permet d'attacher de nouvelles fonctionnalités à des objets existants de manière dynamique et transparente, sans affecter la structure de base de ces objets
 
 ### Avantage
+
 Flexibilité : Permet d'ajouter de nouvelles fonctionnalités de manière dynamique.
 Modularité : Chaque fonctionnalité peut être encapsulée dans un décorateur distinct.
 Ouvert pour l'extension, fermé pour la modification : Les fonctionnalités existantes ne sont pas modifiées.
+
 ### Inconvénient
+
 Complexité accrue : L'utilisation excessive de décorateurs peut rendre le code plus difficile à comprendre.
 Risque de surcharge : L'ajout de trop de couches de décorateurs peut entraîner des performances réduites
+
 ### Présentation UML
+
 ![image](https://github.com/Enfyyys/DP-Groupe1/assets/144044265/03bf3ba5-fd6a-4d2d-b604-fed1ceb58dd0)
+
 ### Code C#
+
 nous avons un café qui propose différentes boissons (café, thé, chocolat chaud) avec des options de décoration telles que le lait, la crème, le sucre, etc. Nous voulons pouvoir ajouter ces options de décoration de manière flexible à nos boissons sans avoir à créer une classe distincte pour chaque combinaison possible de boissons et de décoration
 
 ```C#
