@@ -30,7 +30,7 @@ Dans l'UML suivant, la classe FabriqueVehicule appelle la classe Vehicule qui cr
 
 ### Implémentation en C#
 
-```
+```C#
 class Program
 {
     static void Main()
@@ -95,7 +95,6 @@ public class FabriqueVehicule
     }
 }
 
-
 ```
 
 
@@ -128,7 +127,7 @@ Supposons que nous ayons un système de création de formes géométriques (cerc
 
 ### Implémentation en C#
 
-```
+```C#
 // Produits abstraits
 interface IShape
 {
@@ -237,7 +236,7 @@ Dans cet exemple, 'Car' est le produit complexe que nous voulons construire. 'IC
 
 ### Implémentation en C#
 
-```
+```C#
 // Produit : Classe représentant l'objet complexe à construire
 class Car
 {
@@ -343,7 +342,7 @@ Dans cet exemple, la classe Person implémente l'interface ICloneable avec une m
 
 ### Implémentation en C#
 
-```
+```C#
 // Prototype : Interface définissant la méthode de clonage
 interface ICloneable
 {
@@ -421,7 +420,7 @@ En termes simples :
 
 ### Implémentation en C#
 
-```
+```C#
 // Classe Singleton
 public class Singleton
 {
