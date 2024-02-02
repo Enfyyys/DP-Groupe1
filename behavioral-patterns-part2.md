@@ -159,7 +159,7 @@ Le design patterns Observer, permet d'inscrire un objet à un autre objet pour q
 - Les souscripteurs sont avertis dans un ordre aléatoire.
 
 ## UML
-![Design PAttern sauvegarde-Page-6 drawio(1)](https://github.com/Enfyyys/DP-Groupe1/assets/105907677/3d0ad8cc-d346-4085-99ed-c55e213477b4)
+![Design PAttern sauvegarde-Page-6 drawio(2)](https://github.com/Enfyyys/DP-Groupe1/assets/105907677/f1ed9ef1-6139-4a1c-ba0e-b471c7d29432)
 
 ## Exemple C#
 ```CS
