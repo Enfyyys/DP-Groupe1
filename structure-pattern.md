@@ -91,7 +91,7 @@ Pour les développeurs qui ne sont pas familiers avec le pattern Bridge, son uti
 
 ### Présentation UML
 
-<img src="./UML_Bridge.jpg"/>
+![image](https://github.com/Enfyyys/DP-Groupe1/assets/144044265/9220077a-3c77-4cff-ad26-7f5522b712a9)
 
 ### Implémentation en C#
 
