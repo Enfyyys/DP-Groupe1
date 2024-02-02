@@ -1,8 +1,6 @@
 # Patrons de création :
 
 ## Itérateur
-![Design PAttern sauvegarde-Page-3 drawio](https://github.com/Enfyyys/DP-Groupe1/assets/105907677/08e21cb3-8fd6-4b75-9a6a-802d77489391)
-
 
 ### Présentation
 
@@ -19,10 +17,11 @@ Cependant, le pattern Itérator permet de pousser cette possibilité à des type
 * Certaines collections spécialisées sont parfois plus efficace qu'un itérateur.
 
 ### Présentation UML
-
+![Design PAttern sauvegarde-Page-3 drawio](https://github.com/Enfyyys/DP-Groupe1/assets/105907677/08e21cb3-8fd6-4b75-9a6a-802d77489391)
 
 
 ### Implémentation en C#
+Attention : le code présente simplement la structure de l'itérateur, le code implémentant le parcours n'est pas présenté.
 
 ```C#
 var stamps = new StampCollection();
