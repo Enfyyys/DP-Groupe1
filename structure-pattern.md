@@ -183,7 +183,7 @@ Le design pattern Composite permet d'ajouter de nouveaux types d'objets sans cha
 
   ### Présention UML
 
-<img src = "./UML_Composite.jpg" />
+![image](https://github.com/Enfyyys/DP-Groupe1/assets/144044265/6440df2d-01cb-4b36-bc5a-500a54b9e18a)
 
   ### Implémentation en C#
 
