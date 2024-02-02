@@ -470,7 +470,7 @@ Dans cet exemple, 'Car' est l'implémentation concrète du poids mouche et 'CarF
 
 ### Implémentation en C#
 
-```
+```C#
 // Interface pour le poids mouche
 interface ICarFlyweight
 {
@@ -557,7 +557,7 @@ Dans cet exemple, le client utilise le Proxy pour accéder au RealSubject. Le Pr
 
 ### Implémentation en C#
 
-```
+```C#
 // Interface du sujet
 public interface ISubject
 {
