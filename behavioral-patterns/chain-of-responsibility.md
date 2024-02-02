@@ -1,5 +1,3 @@
-# Patrons de création :
-
 ## Chaine de responsabilité
 
 ### Présentation

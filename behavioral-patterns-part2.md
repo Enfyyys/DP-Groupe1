@@ -1,27 +1,27 @@
-# Etat (State)
+## Etat (State)
 
-## Déscription
+### Présentation
 
 Le DP Etat, permet de travailler avec des état avec les objets.
 Un objet a donc un état defini dans un objet.
 
-## Avantage
+### Avantage
 
 - Principe de responsabilité unique
 - Ajoutez de nouveaux états sans modifier les classes état ou le contexte existants.
 - Simplifiez le code du contexte en éliminant les gros blocs conditionnels.
 
-## Inconvénient
+### Inconvénient
 
 - Trop complexe pour des automate simple.
 
-## UML
+### UML
 
 ![Etat_UML](https://github.com/Enfyyys/DP-Groupe1/assets/103527909/5f7740eb-c8e3-47c9-aa01-397ada169127)
 
-## Exemple C#
+### Exemple C#
 
-```cs
+```C#
 
 class Plante
     {
@@ -144,25 +144,27 @@ class Plante
 
 ```
 
-# Observateur (Observer)
+## Observateur (Observer)
 
-## Déscription
+###  Présentation
 
 Le design patterns Observer, permet d'inscrire un objet à un autre objet pour qu'il reçoive une "notification" pour signaler un modification de l'objet.
 
-## Avantage
+###  Avantage
 
 - C'est facile d'ajouter de nouvelles classes souscripteur sans avoir à modifier le code du diffuseur.
 
-## Inconvénient
+###  Inconvénient
 
 - Les souscripteurs sont avertis dans un ordre aléatoire.
 
-## UML
+###  UML
+
 ![Design PAttern sauvegarde-Page-6 drawio(2)](https://github.com/Enfyyys/DP-Groupe1/assets/105907677/f1ed9ef1-6139-4a1c-ba0e-b471c7d29432)
 
-## Exemple C#
-```CS
+###  Exemple C#
+
+```C#
 var jeanluc = new JeanLuc();
 var marcel = new Marcel();
 
@@ -234,27 +236,27 @@ class Marcel : IPersonne
 }
 ```
 
-# Stratégie (Strategy)
+## Stratégie (Strategy)
 
-## Déscription
+### Présentation
 
 Le design patterns Stratégie permet de définir une famille d’algorithmes, de les mettre dans des classes séparées et de rendre leurs objets interchangeables.
 
-## Avantage
+### Avantage
 
 - On peut permuter l’algorithme utilisé à l’intérieur d’un objet à l’exécution.
 - On peut séparer les détails de l’implémentation d’un algorithme et le code qui l’utilise.
 - On peut ajouter de nouvelles stratégies sans avoir à modifier le contexte.
 
-## Inconvénient
+### Inconvénient
 
-## UML
+### UML
 
 ![UML_Strategy](https://github.com/Enfyyys/DP-Groupe1/assets/103527909/5bd83704-b492-4b61-964e-641af4b4b23e)
 
-## Exemple C#
+### Exemple C#
 
-```cs
+```C#
 using System;
 
 public class Program
@@ -337,26 +339,26 @@ public class Program
 ```
 
 
-# Patron de méthode ( Méthode socle, Template Method)
+## Patron de méthode ( Méthode socle, Template Method)
 
-## Déscription
+### Présentation
 
 Le design patterns Patron de méthode permet de mettre le squelette d’un algorithme dans la classe mère, mais laisse les sous-classes redéfinir certaines étapes de l’algorithme sans changer sa structure.
 
-## Avantage
+### Avantage
 
 - On permet aux clients de redéfinir certaines parties d’un grand algorithme. Elles sont ainsi moins affectées par les modifications apportées aux autres parties de l’algorithme.
 - On peut remonter le code dupliqué dans la classe mère.
 
-## Inconvénient
+### Inconvénient
 
-## UML
+### UML
 
 ![UML_Patron_de_Methode](https://github.com/Enfyyys/DP-Groupe1/assets/103527909/f7b92e6b-a7dc-4497-a181-4964b3863bb8)
 
-## Exemple C#
+### Exemple C#
 
-```cs
+```C#
 using System;
 
 public class Program

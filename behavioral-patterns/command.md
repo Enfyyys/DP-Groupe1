@@ -1,5 +1,3 @@
-# Patrons de création :
-
 ## Command
 
 ### Présentation
@@ -11,9 +9,11 @@ Le design pattern Command permet de solutionner les problèmes liés aux dépend
 * Ajouter ce pattern prend sens lorsqu'il y a trop de couplage entre l'IHM et la couche métier. Il permet notamment de découpler l'action d'un bouton de la tâche qu'il réalise et d'apporter de nouvelles tâches sans détruire ce qui est déjà en place.
 
 ### Inconvénients
+
 * Amène de la complexité au code et diminue sa lisibilité, ce qui peut être un frein sur de petits projets.
 
 ### Présentation UML
+
 ![chainOfResponsibility](https://github.com/Enfyyys/DP-Groupe1/assets/105907677/c612f508-3c82-4e14-9a8f-9d5dcbf336b3)
 
 

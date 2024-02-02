@@ -1,18 +1,20 @@
-# Patrons comportementaux :
-
 ## Memento
 
 ### Présentation
+
 Le memento est un design pattern qui permet de sauvegarder un état à un moment donné. La classe qui gère les propriétés que l'on veut sauvegarder (Originator) a avoir la responsabilité de faire une capture de son état, et de sauvegarder cet état dans une classe (Memento). Ensuite, une classe CareTaker va se charger de gérer tous ces mementos.
 
 ### Avantages
+
 * Permet de mettre en place le "retour en arrière" sur un état quelconque. On prendra dans l'exemple suivant le cas d'un escalier que l'on monte (sous forme d'une chaîne de caractères).
 * On peut garder l'encapsulation de l'objet que l'on veut sauvegarder
 
 ### Inconvénients
+
 * A utiliser avec précaution car cela peut amener à consommer beaucoup de mémoire vive si ce pattern fait trop souvent de sauvegardes.
 
 ### Présentation UML
+
 ![Design PAttern sauvegarde-Page-5 drawio](https://github.com/Enfyyys/DP-Groupe1/assets/105907677/8c79a615-8046-43ea-be9a-49f8fed4f6c1)
 
 
