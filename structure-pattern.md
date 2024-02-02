@@ -22,8 +22,8 @@
 
 
 ### Présentation UML
+![image](https://github.com/Enfyyys/DP-Groupe1/assets/144044265/207a98ea-e024-4f15-bc5a-195c6ab719f5)
 
-<img src='./UML_Adaptateur.jpg'/>
 
 ### Implémentation en C#
 
