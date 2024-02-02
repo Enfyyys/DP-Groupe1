@@ -465,6 +465,7 @@ En termes simples :
 ### Présentation UML
 
 Dans cet exemple, 'Car' est l'implémentation concrète du poids mouche et 'CarFlyweightFactory' est la fabrique de poids mouche qui gère la création et la récupération des objets poids mouchee. L'idée est de partager les instances d'objets similaires pour économiser de la mémoire. Ce sera plus visible sur l'implémentation en C#.
+
 ![image](https://github.com/Enfyyys/DP-Groupe1/assets/90694706/6d3b4bd1-81b7-4b5e-ac33-7dd76bc08b01)
 
 ### Implémentation en C#
