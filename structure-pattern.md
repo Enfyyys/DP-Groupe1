@@ -274,7 +274,7 @@ Lorsque de nombreuses fonctionnalités sont ajoutées au moyen de décorateurs, 
 
 ### Présentation UML
 
-<img src='./UML_Decorateur.jpg'/>
+![image](https://github.com/Enfyyys/DP-Groupe1/assets/144044265/dc030808-88a1-4671-923d-4e8b70b944a9)
 
 ### Implémentation en C#
 
