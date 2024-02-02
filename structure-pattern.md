@@ -348,7 +348,7 @@ Ouvert pour l'extension, fermé pour la modification : Les fonctionnalités exis
 Complexité accrue : L'utilisation excessive de décorateurs peut rendre le code plus difficile à comprendre.
 Risque de surcharge : L'ajout de trop de couches de décorateurs peut entraîner des performances réduites
 ### Présentation UML
-![alt text](image.png)
+![image](https://github.com/Enfyyys/DP-Groupe1/assets/144044265/03bf3ba5-fd6a-4d2d-b604-fed1ceb58dd0)
 ### Code C#
 nous avons un café qui propose différentes boissons (café, thé, chocolat chaud) avec des options de décoration telles que le lait, la crème, le sucre, etc. Nous voulons pouvoir ajouter ces options de décoration de manière flexible à nos boissons sans avoir à créer une classe distincte pour chaque combinaison possible de boissons et de décoration
 
