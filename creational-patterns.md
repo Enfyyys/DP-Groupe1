@@ -31,6 +31,53 @@ Dans l'UML suivant, la classe FabriqueVehicule appelle la classe Vehicule qui cr
 ### Implémentation en C#
 
 ```
+class Program
+{
+    static void Main()
+    {
+        FabriqueVehicule fabrique = new FabriqueVehicule();
+
+        // Création d'une voiture
+        Vehicule voiture = fabrique.Create("voiture");
+        voiture.Demarrer();
+
+        // Création d'une moto
+        Vehicule moto = fabrique.Create("moto");
+        moto.Demarrer();
+
+        // Tentative de création d'un type inconnu
+        try
+        {
+            Vehicule vehiculeInconnu = fabrique.Create("camion");
+        }
+        catch (InvalidOperationException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+}
+
+public abstract class Vehicule
+{
+    public abstract void Demarrer();
+}
+
+public class Voiture : Vehicule
+{
+    public override void Demarrer()
+    {
+        Console.WriteLine("La voiture démarre.");
+    }
+}
+
+public class Moto : Vehicule
+{
+    public override void Demarrer()
+    {
+        Console.WriteLine("La moto démarre.");
+    }
+}
+
 public class FabriqueVehicule
 {
     public Vehicule Create(string typeVehicule)
@@ -44,9 +91,10 @@ public class FabriqueVehicule
             return new Moto();
         }
 
-        throw new VehiculeCreationException("Impossible de créer une " + typeVehicule);
+        throw new InvalidOperationException("Impossible de créer une " + typeVehicule);
     }
 }
+
 
 ```
 
